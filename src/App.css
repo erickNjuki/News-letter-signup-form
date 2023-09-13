@@ -1,0 +1,228 @@
+/* @import url('https://fonts.google.com/specimen/Roboto'); */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  background-color: hsl(235, 18%, 26%);
+  font-family: "Roboto", sans-serif;
+   color:  hsl(234, 29%, 20%);
+}
+
+.html{
+  font-size: 16px;
+}
+
+.card-container{
+  position: relative;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  margin: 4rem auto;
+
+  display: flex;
+  justify-content: space-between;
+  width: 40em;
+  background-color: hsl(0, 0%, 100%);
+}
+ 
+
+ .headline{
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  } 
+
+.card-container > div{
+   padding-left: 2.6rem;
+   width: 18rem;
+
+}
+
+
+h5{
+  font-size: 0.8rem;
+  color: hsl(232, 64%, 11%);
+  font-weight: 400;
+}
+
+p{
+  display: flex; 
+  gap: 1rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form > input{
+  padding: 0.8rem 0rem;
+  border-color: hsl(231, 7%, 60%);
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+
+ form > p{
+   font-weight: 700;
+
+ } 
+
+button{
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: hsl(232, 64%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+aside{
+  background: url(".\assets\illustration-sign-up-desktop.svg");
+}
+
+aside > img{
+  width: 290px;
+  height: 400px;
+}
+
+@media screen and (max-width: 690px) {
+  body{
+     background-color: black;
+  }
+
+  .html{
+    font-size: 16px;
+  }
+  
+  .card-container{
+    position: relative;
+    border-radius: 0rem;
+    padding: 0rem;
+    padding-bottom: 2rem;
+    background: hsl(0, 0%, 100%);
+    margin: 4rem auto;
+    width: 23em;
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+   
+  
+   .headline{
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5rem;
+    } 
+  
+  .card-container > div{
+     padding-left: 1rem;
+     width: 18rem;
+  
+  }
+  
+  
+  h5{
+    font-size: 0.98rem;
+    color: hsl(233, 71%, 16%);
+    font-weight: 500;
+  }
+  
+  p{
+    display: flex; 
+    gap: 1rem;
+    font-weight: 400;
+    font-size: 0.99rem;
+  }
+  
+  
+  
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form > input{
+    padding: 0.8rem 0rem;
+    border-color: hsl(231, 7%, 60%);
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  
+   form > p{
+     font-weight: 700;
+     font-size: 0.75rem;
+     border: none;
+   } 
+  
+  button{
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: hsl(232, 64%, 11%);
+    color: hsl(0, 0%, 100%);
+  }
+  
+  aside{
+    text-align: center;
+    border-radius: 0rem;
+    background: none;
+  }
+
+  
+aside > img{
+  width: 100%;
+  height: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.3rem;
+}
+
+form > input{
+  padding: 1rem;
+  border-color: hsl(216, 7%, 86%);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  width: 19.6em;
+  outline: none;
+}
+
+
+ form > p{
+   font-weight: 700;
+
+ } 
+
+button{
+  padding: 1.2rem;
+  font-size: 1rem;
+  width: 19em;
+  border-radius: 0.5rem;
+  background-color: hsl(232, 64%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+  
+  
+
+}
+
+
+/* 
+### Primary
+
+- Tomato: hsl(4, 100%, 67%)
+
+### Neutral
+
+- Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%) */
